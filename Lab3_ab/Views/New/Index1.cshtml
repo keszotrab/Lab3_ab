@@ -1,0 +1,25 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+<div>
+    <form id="edit" method="post" action="api/updates/complex"
+          enctype="application/x-www-form-urlencoded">
+        <div>
+            <label for="status">Status</label>
+        </div>
+        <div>
+            <input name="status" type="text" />
+        </div>
+        <div>
+            <label for="date">Date</label>
+        </div>
+        <div>
+            <input name="date" type="text" />
+        </div>
+        <div>
+            <input type="submit" value="Submit" />
+        </div>
+    </form>
+</div>

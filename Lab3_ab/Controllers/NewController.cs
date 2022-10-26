@@ -39,7 +39,7 @@ namespace Lab3_ab.Controllers
         };
         public static int messageCounter = 4; //pamietac o zwiekszaniu
 
-        public IActionResult Index()
+        public IActionResult Index1()
         {
             return View();
         }
@@ -48,6 +48,14 @@ namespace Lab3_ab.Controllers
         {
             return View();
         }
+
+        
+
+
+
+
+
+
 
         [HttpGet]
         public void ContactForm()
